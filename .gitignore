@@ -1,0 +1,22 @@
+# Ignore the MIMIC-III dataset directory
+mimic-iii-clinical-database-1.4/
+
+# Ignore any zip files
+*.zip
+
+# Ignore large CSV and CSV.GZ files in the root and subdirectories
+*.csv
+*.csv.gz
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.env
+.venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db 
